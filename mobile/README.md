@@ -1,3 +1,3 @@
 # Domain
 
-[m.hackathonidigit.ru](https://m.hackathonidigit.ru)
+- [m.hackathonidigit.ru](https://m.hackathonidigit.ru)
