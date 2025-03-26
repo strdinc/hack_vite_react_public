@@ -1,0 +1,121 @@
+body {
+    
+    width: 100%;
+    
+    padding-top: 72px;
+    padding-bottom: 72px;
+    padding-left: 72px;
+    
+
+  background: rgba(13, 12, 16, 1);
+
+  font-family: 'Gilroy', serif;
+}
+
+.hidden {
+  display: none;
+}
+
+.logo {
+  width: 471px;
+  height: auto;
+  margin-bottom: 72px;
+}
+
+.command {
+  padding-top: 45px;
+  padding-left: 72px;
+  padding-right: 72px;
+  border: 3px solid white;
+  border-radius: 20px;
+  margin-bottom: 72px;
+  display: flex;
+  margin-right: 72px;
+}
+
+.command_name {
+  font-size: 59px;
+  font-weight: 700;
+  line-height: 59px;
+  color: white;
+  height: auto;
+  margin-bottom: 45px;
+}
+
+.command_participants {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 72px;
+  gap: 72px;
+}
+
+.command_participant, .no_command_participant {
+    width: auto;
+    overflow: hidden;
+}
+
+.fullname {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 44px;
+  color: white;
+  height: 88px;
+  margin-bottom: 10px;
+  
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Ограничение до двух строк */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+
+.institution {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  color: white;
+  height: auto;
+  margin-bottom: 3px;
+}
+
+.selectedtrack {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  color: white;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.phone {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  color: white;
+  height: auto;
+}
+
+.email {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  color: white;
+  height: auto;
+  margin-bottom: 2px;
+  white-space: nowrap;
+}
+
+.file {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  color: white;
+  height: auto;
+}
+
+.no_command_participant {
+  margin-bottom: 72px;
+  display: flex;
+  flex-wrap: wrap;
+}

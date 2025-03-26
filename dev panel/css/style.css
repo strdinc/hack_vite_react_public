@@ -1,0 +1,106 @@
+body {
+  padding-left: 72px;
+  padding-top: 72px;
+
+  background: rgba(13, 12, 16, 1);
+
+  font-family: 'Gilroy', serif;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.up_line {
+  height: 72px;
+  width: 100%;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  background: rgba(217, 217, 217, 0.22);
+}
+
+.logo {
+  width: 471px;
+  height: auto;
+}
+
+.left_line {
+  height: 100%;
+  width: 72px;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  background: rgba(217, 217, 217, 0.22);
+}
+
+.login_form {
+  width: 471px;
+
+  margin-top: 208px;
+
+  position: relative;
+
+  flex-direction: column;
+  display: flex;
+}
+
+.inputs {
+  width: 100%;
+
+  position: relative;
+  flex-direction: column;
+  display: flex;
+
+  font-family: 'Gilroy', serif;
+}
+
+.username, .password {
+  height: 47px;
+
+  background-color: transparent;
+  color: #ffffff;
+
+  border: none;
+  border-bottom: 2px solid white;
+
+  font-family: 'Gilroy', serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+input#username::placeholder, input#password::placeholder {
+  color: white;
+}
+
+.password{
+  margin-top: 20px;
+}
+
+.sub_but {
+  width: 150px;
+  height: 45px;
+
+  margin-top: 40px;
+  margin-right: 0;
+  margin-left: auto;
+
+  border-radius: 90px;
+
+  background: #ffffff;
+  color: rgba(13, 12, 16, 1);
+
+  font-family: 'Gilroy', serif;
+  font-weight: 500;
+  font-size: 30px;
+
+  cursor: pointer;
+}
+

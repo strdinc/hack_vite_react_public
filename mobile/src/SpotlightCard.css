@@ -1,0 +1,86 @@
+.card-spotlight {
+  position: relative;
+  border-radius: 1.5rem;
+  border: 1px solid #222;
+  background-color: #111;
+  padding: 2rem;
+  overflow: hidden;
+  --mouse-x: 50%;
+  --mouse-y: 50%;
+  --spotlight-color: rgba(255, 255, 255, 0.05);
+}
+
+.card-spotlight::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at var(--mouse-x) var(--mouse-y), var(--spotlight-color), transparent 80%);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+
+.card-spotlight:hover::before,
+.card-spotlight:focus-within::before {
+  opacity: 0.6;
+}
+
+.Cards {
+  display: flex;
+  flex-direction: column;
+  gap: calc(20 / 498 * 100vw);
+}
+
+.card-spotlight {
+  padding: calc(50 / 498 * 100vw);
+}
+
+.partner_card {
+  width: auto;
+}
+
+.card_title {
+  margin-top: calc(30 / 498 * 100vw);
+  font-size: calc(30 / 498 * 100vw);
+  line-height: calc(30 / 498 * 100vw);
+  font-weight: 600;
+  color: white;
+  z-index: 3;
+}
+
+.card_text {
+  margin-top: calc(25 / 498 * 100vw);
+  font-size: calc(25 / 498 * 100vw);
+  line-height: calc(25 / 498 * 100vw);
+  font-weight: 400;
+  color: #ffffff;
+  z-index: 3;
+}
+
+.card_titleETC {
+  color: white;
+}
+
+.ID_logo_partner {
+  width: calc(170 / 498 * 100vw);
+}
+
+.KemSU_logo_partner {
+  width: calc(150 / 498 * 100vw);
+}
+
+.hrefs {
+  display: flex;
+  flex-direction: row;
+  margin-top: calc(30 / 498 * 100vw);
+  gap: calc(30 / 498 * 100vw);
+}
+
+.vk_link_img, .internet_link_img {
+  width: calc(35 / 498 * 100vw);
+  z-index: 3;
+}
+
